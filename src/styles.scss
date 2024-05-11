@@ -1,0 +1,16 @@
+app-loading{
+  transition: .7s ;
+  opacity: 1;
+  scale: 1;
+  &.fade-loading  .loading>  div{
+    translate: 0% 200vh;
+    width: 100% !important;
+    opacity: .6;
+  }
+
+}
+.loading-component {
+  /* استایل‌های مربوط به کامپوننت loading را در اینجا تعریف کنید */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
